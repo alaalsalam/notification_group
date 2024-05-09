@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "creation": "2024-05-05 11:56:42.541090",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "doctype_section",
+  "doctype_list",
+  "filters_section",
+  "company",
+  "branch",
+  "department",
+  "column_break1",
+  "designation",
+  "advanced_filters_section",
+  "filter_list",
+  "select_user_section",
+  "user_html"
+ ],
+ "fields": [
+  {
+   "collapsible": 1,
+   "fieldname": "filters_section",
+   "fieldtype": "Section Break",
+   "label": "Quick Filters"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "remember_last_selected_value": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break",
+   "width": "50%"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Designation",
+   "options": "Designation"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "advanced_filters_section",
+   "fieldtype": "Section Break",
+   "label": "Advanced Filters"
+  },
+  {
+   "fieldname": "filter_list",
+   "fieldtype": "HTML",
+   "label": "Filter List"
+  },
+  {
+   "fieldname": "doctype_section",
+   "fieldtype": "Section Break",
+   "label": "Doctype"
+  },
+  {
+   "fieldname": "doctype_list",
+   "fieldtype": "Link",
+   "label": "Doctype List",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "user_html",
+   "fieldtype": "HTML",
+   "label": "User HTML",
+   "read_only": 1
+  },
+  {
+   "fieldname": "select_user_section",
+   "fieldtype": "Section Break",
+   "label": "Select User"
+  }
+ ],
+ "hide_toolbar": 1,
+ "icon": "fa fa-cog",
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-05 12:46:47.624967",
+ "modified_by": "Administrator",
+ "module": "Notification Group",
+ "name": "Create Group",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "read": 1,
+   "role": "HR User",
+   "write": 1
+  }
+ ],
+ "read_only": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
